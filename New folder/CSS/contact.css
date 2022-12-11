@@ -1,0 +1,434 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  font-family: "futura";
+}
+
+@font-face {
+  font-family: futura;
+  src: url(../futurafont/font3.ttf);
+}
+
+a {
+  color: white;
+}
+
+/* -------------------------------------header---------------------------- */
+.header {
+  background-color: #212329;
+  color: white;
+  height: 35px;
+}
+
+.header .row .abc p {
+  font-size: 13px;
+  padding: 6px 0 0 0;
+}
+
+.header .row .abc ul {
+  padding: 4px 0 0 0;
+}
+
+.header .row .abc ul li select {
+  background-color: #212329;
+  border: none;
+  color: white;
+}
+
+.header .row .abc ul li select {
+  font-size: 13px;
+}
+
+.header .row .abc ul li {
+  font-size: 13px;
+  padding: 0 10px;
+}
+
+.header .row .abc ul li a {
+  color: white;
+}
+
+.list-inline-item select:focus {
+  outline: none;
+}
+
+/* -------------------------------------------header media quary------------------------------------ */
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .header {
+    height: auto;
+    text-align: center;
+  }
+  .header .row .abc ul {
+    float: none !important;
+  }
+}
+
+/*---------------------------------------- navbar--------------------------------- */
+
+.tect {
+  font-size: 13px;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navic {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navic .serach span {
+  color: black;
+  height: 45px;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f3f5 !important;
+  /* margin: 0 10px; */
+  margin-right: -10px;
+  border-radius: 50%;
+}
+
+.navic .cart a {
+  color: black;
+  height: 45px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f3f5;
+  margin: 0 20px;
+  border-radius: 2rem;
+}
+
+nav div ul li a {
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+nav {
+  padding: 0 40px;
+}
+
+.navbar-toggler {
+  box-shadow: none !important;
+  margin-left: 5px;
+  border: 1px solid;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+  margin-left: 5px;
+  border: 1px solid red !important;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 100%;
+  left: -250px !important;
+  margin-top: 0.125rem;
+}
+.dropdown .but {
+  padding: 0 !important;
+  background-color: transparent !important;
+  border: none !important;
+  line-height: 0 !important;
+  box-shadow: none !important;
+}
+.dropdown .dropdown-item:hover {
+  background-color: transparent;
+}
+
+.cart .bu {
+  display: flex;
+}
+.cart .bt {
+  display: flex;
+  justify-content: space-between;
+}
+.cart .bu .btn {
+  padding: 15px 30px;
+  width: 50%;
+  margin: 2px;
+  background-color: #212329;
+  color: white;
+  transition: all 0.5s;
+}
+.cart .bu .btn:hover {
+  background-color: #ff4135;
+}
+
+/* -------------------------------------------navbar media quary------------------------------------ */
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .img-fluid {
+    width: 100px;
+  }
+
+  .navic .cart a {
+    color: black;
+    height: 35px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f3f5;
+    margin-left: 20px;
+    border-radius: 2rem;
+    font-size: 13px;
+  }
+
+  .navic .serach span {
+    height: 35px;
+    font-size: 14px;
+    width: 35px;
+    border-radius: 50%;
+    align-items: center;
+  }
+  .navic .cart a span {
+    font-size: 15px;
+  }
+  .navic .cart a label {
+    display: none;
+  }
+  nav {
+    padding: 0;
+  }
+  .navbar-brand {
+    padding: 5px !important;
+  }
+  .nav-link {
+    text-align: center !important;
+  }
+
+
+
+
+
+
+
+  .cart .bu .btn {
+    padding: 10px 0px !important;
+  }
+  .dropdown-menu[data-bs-popper] {
+  top: 100%;
+  /* left: 0px !important; */
+  margin-top: 0.125rem;
+  right:3% !important;
+  padding: 15px !important;
+}
+.dropdown-menu li{
+  padding: 0px;
+}
+ 
+}
+
+/* -------------------------go------------------- */
+.go {
+  background-color: #f2f3f5;
+  height: 80px;
+  padding: 0 170px;
+  display: flex;
+  align-items: center;
+}
+
+.go a {
+  color: black;
+  font-weight: 300;
+  margin-right: 10px;
+}
+
+.go label {
+  color: #768188;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+/* -------------------------------------------go media quary------------------------------------ */
+
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .go {
+    padding: 30px;
+  }
+}
+
+/* ----------------------------------secyion2----------------------------------- */
+.section2 {
+  height: 76vh;
+  padding: 100px 140px;
+}
+.section2 .container form input {
+  padding: 16px 20px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+
+.section2 .container form input:focus {
+  box-shadow: none;
+  border: 1px solid #ff4135;
+}
+.section2 .container form textarea:focus {
+  box-shadow: none;
+  border: 1px solid #ff4135;
+}
+.section2 .container h2 {
+  color: #212329;
+  margin-bottom: 30px;
+}
+
+.section2 .container form .col-md-12 button {
+  background-color: #ff4135 !important;
+  border: none;
+  padding: 16px 48px;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 2rem;
+}
+
+.section2 .col-lg-4 div span {
+  font-size: 45px;
+  margin: 5px 20px 10px 0;
+  color: #343a40;
+}
+.section2 .col-lg-4 div div h4 {
+  font-size: 21px;
+}
+
+.section2 .col-lg-4 div div p {
+  color: grey;
+}
+
+/* ----------------------------------secyion2 media qaury----------------------------------- */
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .section2 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .section2 .container form .col-md-12 button {
+    background-color: #ff4135 !important;
+    border: none;
+    padding: 13px 35px;
+    font-size: 13px;
+    text-transform: uppercase;
+    border-radius: 2rem;
+  }
+}
+
+/* ---------------------------------------------------------section3---------------------------------------- */
+
+.maha {
+  background-color: #f8f9fa;
+  padding: 50px 80px !important;
+  height: 57vh;
+}
+
+.container .row .col-lg-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.container .row .col-lg-3 a {
+  color: #41454f;
+  font-weight: 500;
+  padding: 5px 0;
+  transition: all 0.6s;
+}
+
+.container .row .col-lg-3 a:hover {
+  text-decoration: underline;
+}
+
+.container .row .col-lg-3 h5 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #40444f;
+  font-weight: 500;
+  /* color: #212329; */
+}
+
+.container .row .col-lg-3 .ico a i {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #212329;
+  margin-right: 8px;
+  color: white;
+  transition: all 0.5s;
+}
+
+.container .row .col-lg-3 .ico a i:hover {
+  background-color: #ff4135;
+}
+
+.container .row .col-lg-3 .ico a {
+  text-decoration: none;
+}
+
+.container .row .col-lg-3 .ico {
+  display: flex;
+}
+
+/* ------------------------------media quary section5-------------------------- */
+@media screen and (min-width: 320px) and (max-width: 780px) {
+  .maha {
+    padding: 20px 10px !important;
+    height: auto;
+    text-align: center;
+  }
+
+  .container .row .col-lg-3 {
+    margin: 10px 0;
+  }
+
+  .container .row .col-lg-3 .ico {
+    justify-content: center;
+  }
+
+  .section8 .container .row .col-lg-4 {
+    margin: 5px 0;
+  }
+}
+
+/* ------------------------------------------------------sections8------------------------------------ */
+.section8 {
+  background-color: #343a40;
+  padding: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section8 .container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section8 .container .row .col-lg-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section8 .container .row .col-lg-4 p {
+  font-size: 17px;
+}
+
+.section8 .container .row .col-lg-4 img {
+  margin: 0 4px;
+  border-radius: 5px;
+}
+
+.section8 .container .row .img img {
+  width: 40px;
+}
