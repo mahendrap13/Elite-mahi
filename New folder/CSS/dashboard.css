@@ -401,6 +401,13 @@ td {
   .section1{
     padding: 5px;
   }
+   .nav-pills .nav-link {
+    /* width: 100px; */
+    /* margin: 0 !important; */
+    font-size: 12px;
+    padding: 10px 13px !important;
+
+  }
   
 }
 
