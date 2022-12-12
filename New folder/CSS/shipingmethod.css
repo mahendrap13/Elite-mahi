@@ -128,53 +128,52 @@
 
   
 
-.navbar-toggler {
-  box-shadow: none !important;
-  margin-left: 5px;
-  border: 1px solid;
-}
-.navbar-toggler:focus {
-  box-shadow: none !important;
-  margin-left: 5px;
-  border: 1px solid red;
-}
-
-
-.dropdown-menu[data-bs-popper] {
-  top: 100%;
-  left: -250px;
-  margin-top: 0.125rem;
-}
-.dropdown .but{
-  padding: 0 !important;
-  background-color: transparent !important;
-  border: none;
-  line-height: 0;
-  box-shadow: none;
-}
-.dropdown .dropdown-item:hover{
-  background-color: transparent;
-}
-
-.cart .bu{
-  display: flex;
-}
-.cart .bt{
-  display: flex;
-  justify-content: space-between;
-}
-.cart .bu .btn{
-  padding: 15px 30px;
-  width: 50%;
-  margin: 2px;
-  background-color: #212329;
-  color: white;
-  transition: all 0.5s;
-}
-.cart .bu .btn:hover{
-  background-color:#FF4135;
-} 
-
+ .navbar-toggler {
+    box-shadow: none !important;
+    margin-left: 5px;
+    border: 1px solid;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+    margin-left: 5px;
+    border: 1px solid red !important;
+  }
+  
+  .dropdown-menu[data-bs-popper] {
+    top: 100%;
+    left: -250px !important;
+    margin-top: 0.125rem;
+  }
+  .dropdown .but {
+    padding: 0 !important;
+    background-color: transparent !important;
+    border: none !important;
+    line-height: 0 !important;
+    box-shadow: none !important;
+  }
+  .dropdown .dropdown-item:hover {
+    background-color: transparent;
+  }
+  
+  .cart .bu {
+    display: flex;
+  }
+  .cart .bt {
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart .bu .btn {
+    padding: 15px 30px;
+    width: 50%;
+    margin: 2px;
+    background-color: #212329;
+    color: white;
+    transition: all 0.5s;
+  }
+  .cart .bu .btn:hover {
+    background-color: #ff4135;
+  }
+  
   
 
    /* -------------------------------------------navbar media quary------------------------------------ */
@@ -223,6 +222,20 @@
    .nav-link{
      text-align: center !important;
    }
+      
+  .cart .bu .btn {
+    padding: 10px 0px !important;
+  }
+  .dropdown-menu[data-bs-popper] {
+  top: 100%;
+  /* left: 0px !important; */
+  margin-top: 0.125rem;
+  right:3% !important;
+  padding: 15px !important;
+}
+.dropdown-menu li{
+  padding: 0px;
+}
  
  
  }
